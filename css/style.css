@@ -390,6 +390,7 @@ section:nth-of-type(2) {
   font-weight: bolder;
   font-size: 40px;
   color: rgba(128, 128, 128, 0.3);
+  /* border: 1px solid black; */
 }
 
 .textBox1 > span,
@@ -404,9 +405,12 @@ section:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
-  color: rgba(128, 128, 128, 0.3);
+  color: rgb(255, 0, 0);
   font-weight: bolder;
   font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border: 1px solid black; */
 }
 
 .typing1.on,
